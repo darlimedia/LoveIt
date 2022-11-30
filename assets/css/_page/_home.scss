@@ -1,6 +1,6 @@
 .home {
   .home-profile {
-    @include transform(translateY( 16vh));
+    @include transform(translateY(16vh));
     padding: 0 0 .5rem;
     text-align: center;
 
@@ -73,7 +73,7 @@
   }
 
   .home-avatar img {
-    width: 6rem;
+    width: 70%;
   }
 
   .summary {
@@ -153,7 +153,8 @@
 
       @include link(false, true);
 
-      b, strong {
+      b,
+      strong {
         color: $global-font-secondary-color;
 
         [theme=dark] & {
